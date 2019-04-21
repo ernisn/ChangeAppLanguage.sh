@@ -9,9 +9,14 @@
 直接命令行执行：
 
 ```
-bash ChangeDefaultLanguage.sh 包名 语言
+wget --no-check-certificate 'https://raw.githubusercontent.com/ernisn/ChangeAppLanguage.sh/master/ChangeAppLanguage.sh' && bash ChangeAppLanguage.sh 包名 语言
 ```
 
 **方法二**
 
-执行 `bash ChangeDefaultLanguage.sh` 后，按提示操作。
+执行:
+
+```
+wget --no-check-certificate 'https://raw.githubusercontent.com/ernisn/ChangeAppLanguage.sh/master/ChangeAppLanguage.sh'
+```
+然后执行 `bash ChangeDefaultLanguage.sh`，按提示操作。
