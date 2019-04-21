@@ -2,21 +2,24 @@
 
 修改 MacOS 端软件默认语言（可独立于系统语言），默认选择中英文，支持自定义其他语言。
 
-# 使用方法
+![ChangeAppLanguage.sh.png](https://i.loli.net/2019/04/21/5cbc87a78c296.png)
 
-**方法一**
+### 使用方法
 
-直接命令行执行：
-
-```
-wget --no-check-certificate 'https://raw.githubusercontent.com/ernisn/ChangeAppLanguage.sh/master/ChangeAppLanguage.sh' && bash ChangeAppLanguage.sh 包名 语言
-```
-
-**方法二**
-
-执行:
+使用终端执行以下命令来下载脚本：
 
 ```
-wget --no-check-certificate 'https://raw.githubusercontent.com/ernisn/ChangeAppLanguage.sh/master/ChangeAppLanguage.sh'
+wget --no-check-certificate 'https://raw.githubusercontent.com/ernisn/ChangeAppLanguage.sh/master/ChangeAppLanguage.sh' && bash ChangeAppLanguage.sh
 ```
-然后执行 `bash ChangeDefaultLanguage.sh`，按提示操作。
+
+然后执行以下命令并按提示操作：
+
+```
+bash ChangeAppLanguage.sh
+```
+
+或直接执行:
+
+```
+bash ChangeAppLanguage.sh 包名 语言
+```
