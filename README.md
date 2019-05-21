@@ -9,7 +9,7 @@
 使用终端执行以下命令来下载脚本：
 
 ```
-wget --no-check-certificate 'https://raw.githubusercontent.com/ernisn/ChangeAppLanguage.sh/master/ChangeAppLanguage.sh' && bash ChangeAppLanguage.sh
+wget --no-check-certificate 'https://raw.githubusercontent.com/ernisn/ChangeAppLanguage.sh/master/ChangeAppLanguage.sh'
 ```
 
 然后执行以下命令并按提示操作：
